@@ -8,6 +8,7 @@ int main()
     // Allocate memory for 3 integers
     int* values = new int[n];
 
+    cout << "Enter 3 integers"
     // Fixing error one by making it < and not <=
     for (int i = 0; i < n; i++)
     {
@@ -15,7 +16,7 @@ int main()
     }
 
     // Display the integers
-    cout << "Values: ";
+    cout << "You entered: ";
 
     for (int i = 0; i < n; i++)
     {
